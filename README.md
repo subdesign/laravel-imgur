@@ -64,7 +64,7 @@ _Upload from url:_
 _Upload from file:_
 
     $params = array(
-        'image' => base64_encode(file_get_contents(FCPATH . 'picture.jpg')),			
+        'image' => base64_encode(file_get_contents('/path/to/picture.jpg')),			
         'type'  => 'base64'
     );
 
